@@ -1,0 +1,66 @@
+body, table, textarea { font-size: 13px; line-height: 18px; font-family: "Trebuchet MS", Helvetica, Arial, 'Liberation Sans', FreeSans, sans-serif;}
+body {background:#F0F0F0;}
+
+button div {float:left;}
+
+a,.blue {color: #00c8fa; text-decoration: none; cursor:pointer;}
+a:hover {text-decoration:underline; }
+
+.left {float:left;}
+.clear {clear:both;}
+
+/** Button Extra **/
+.button_exta {
+	position:relative;
+	z-index:99;
+}
+
+html body #header .button_exta input {width:auto;}
+
+.button_exta button {
+	background:none;
+	background-image:url('../images/il-sprites.png'); 
+	background-position: 0px 0px;
+	border:0px;
+	height:25px; 
+	width:120px;
+	position:absolute;
+	z-index:100;
+	color:#fff;
+	font-size:20px;
+	cursor:pointer;
+}
+
+.button_exta button:hover {background-position: 0px -25px;}
+.button_exta a img:hover {background-position: 600px -25px;}
+
+.button_exta > a {
+	width:164px;
+	position:absolute;
+	cursor:default;
+	overflow:hidden;
+	height:25px;
+	font-size:14px;
+	text-decoration:none;
+}
+
+.button_exta > a img {
+	background:url('../images/il-sprites.png') right; 
+	background-position: 600px 0px;
+	position:absolute;
+	left:120px;
+	padding:3px 7px 3px 6px;
+	border-left: 1px solid #000;
+}
+
+.button_exta a:hover {height:125px;background-repeat:no-repeat;}
+
+.button_exta ul { margin:10px 5px 0px 5px; background-color:#fff;}
+.button_exta ul li {padding:0px 5px 5px 5px; background-color:#484848;}
+.button_exta ul li input {height:25px;}
+.button_exta ul li:hover {background-color:#c00539;}
+
+html body button.button_rest {background:none; font-size:14px; margin:0px; padding:5px 0px 0px 0px; height:auto; width:auto; position:relative; color:#00c8fa;}
+html body button:hover.button_rest {color:#fff;}
+
+/* .JS .djs{display:none;} */
